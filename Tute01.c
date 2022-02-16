@@ -5,7 +5,23 @@
 #include <stdio.h>
 
 int main() {
-  
+   
+   
+   int sub1Mark, sub2mark, sum;
+   float average;
+   
+   printf("Input subject1 mark : ");
+   scanf("%d" ,&sub1Mark);
+   
+   printf("Input subject2 mark : ");
+   scanf("%d" ,&sub2Mark);
+   
+   sum = sub1Mark + sub2mark;
+   average = sum/2.0;
+   
+   printf("average is %f" ,average);
+   
+   
   return 0;
 }
 
